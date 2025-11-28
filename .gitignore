@@ -1,0 +1,9 @@
+bin/
+obj/
+.vs/
+*.user
+*.db
+__pycache__/
+local.settings.json
+appsettings.Development.json
+.DS_Store
