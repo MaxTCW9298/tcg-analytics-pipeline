@@ -22,7 +22,8 @@ Data engineering project using C#, Azure Event Hub, Databricks, and pandas to an
 ## Repository Structure
 
 src/
-    IngestionEngine/    # Azure Function (C#) for API Polling
-    Databricks/         # ETL Notebooks (Python & SQL)  AnalyticsAPI/       # REST API (ASP.NET Core) serving Gold data
+├── IngestionEngine/    # Azure Function (C#) for API Polling
+├── Databricks/         # ETL Notebooks (Python & SQL)
+├── AnalyticsAPI/       # REST API (ASP.NET Core) serving Gold data
 docs/
-    architecture.md     # System Design Diagrams
+└── architecture.md     # System Design Diagrams
